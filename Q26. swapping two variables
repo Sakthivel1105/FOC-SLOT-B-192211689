@@ -1,0 +1,17 @@
+//26. swapping two variables
+#include<stdio.h>
+int main()
+{
+    int first,second,temp;
+    printf("\n Enter first number: ");
+    scanf("%d",&first);
+    printf("\n Enter second number: ");
+    scanf("%d",&second);
+    temp=first;
+    first=second;
+    second=temp;
+    printf("After swapping:");
+    printf("\n %d",first);
+    printf("\n %d",second);
+    return 0;
+}
