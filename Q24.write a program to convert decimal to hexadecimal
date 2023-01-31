@@ -1,0 +1,10 @@
+//24.write a program to convert decimal to hexadecimal
+#include<stdio.h>
+int main()
+{
+   int n;
+   printf("Enter an Decimal number:");
+   scanf("%d",&n);
+   printf("Hexadecimal equivalent= %x",n);
+   return 0;
+}
